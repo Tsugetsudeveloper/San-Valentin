@@ -1,0 +1,253 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+::-webkit-scrollbar{
+	background: #e5e4df;
+	width: 8px;
+	height: 8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+	background: #ff7eb0;
+	border-radius: 15px;
+}
+
+/*ANIMACIONES*/
+
+@keyframes show{
+	from{
+		opacity: 0;
+		scale: 10%;
+	}
+	to{
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+
+/*ANIMACIONES*/
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+body{
+	background-image: url(img/f594429a0b50002204ed71ce78535762.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+#h1 {
+    display: flex;
+    justify-content: center;
+    margin: 23% 0px;
+    width: 100%;
+}
+
+#h1>h1{
+	display: block;
+	text-shadow: 0px 0px 15px #f75e99, 0px 0px 15px #f75e99;
+	font-size: 50px
+}
+
+.sticker {
+    position: absolute;
+    width: 215px;
+    top: 86px;
+}
+
+#h1>.sticker:nth-child(2){
+    top: 450px;
+    right: 150px;
+}
+
+#h1>.sticker:nth-child(3){
+    top: 470px;
+    left: 150px;
+}
+
+#container{
+	display: block;
+	width: 90%;
+    min-height: 500px;
+	margin: 0px 5%;
+	padding-top: 150px;
+    padding-bottom: 150px;  
+}
+
+#container>p {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 10%;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 50% cover 30%;
+    animation-fill-mode: both;
+}
+
+.sticker2 {
+    display: block;
+    width: 264px;
+    margin-right: 12%;
+    margin-top: 7px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #f75e99;
+    float: right;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 50% cover 30%;
+    animation-fill-mode: both;
+}
+
+#container>p:nth-child(3) {
+    display: block;
+    width: 70%;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 50% cover 30%;
+    animation-fill-mode: both;
+}
+
+#container>.content1{
+    display: block;
+    margin-top: 500px;
+}
+
+#container>.content1>p {
+    display: inline-block;
+    margin: 40px 4%;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 100% cover 50%;
+    animation-fill-mode: both;
+}
+
+.akutabb1{
+    display: block;
+    float: left;
+    width: 250px;
+    margin-left: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #f75e99;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 100% cover 50%;
+    animation-fill-mode: both;
+}
+
+.akutabb2{
+    display: block;
+    float: right;
+    width: 250px;
+    margin-right: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #f75e99;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 100% cover 50%;
+    animation-fill-mode: both;
+}
+
+#container>.content2{
+    display: block;
+    margin-top: 500px;
+    margin-bottom: 27vh;
+}
+
+#container .content2 p {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin: 30px 5%;
+    font-size: 25px;
+    font-weight: bold;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 100% cover 50%;
+    animation-fill-mode: both;
+}
+
+#container>div>.gatito1 {
+    display: block;
+    width: 345px;
+    margin: -45px 0px;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #f75e99;
+    float: left;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 100% cover 50%;
+    animation-fill-mode: both;
+}
+
+#container>.content3{
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+    margin-top: 500px;
+}
+
+#container .content3 p{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: 27px;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 100% cover 50%;
+    animation-fill-mode: both;
+}
+
+#container .content3 img{
+    display: flex;
+    width: 450px;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #f75e99;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 100% cover 50%;
+    animation-fill-mode: both;
+}

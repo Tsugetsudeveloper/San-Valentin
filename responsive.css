@@ -1,0 +1,166 @@
+@media (max-width: 1200px){
+    body{
+        background-size: 200% 100%;
+        background-position: -160px;
+    }
+
+    #h1{
+        margin: 90% 0px;
+        width: 100%;
+    }
+
+    #h1>h1 {
+        font-size: 90px;
+        width: 75%;
+        text-align: center;
+    }
+
+    .sticker{
+        position: absolute;
+        width: 450px;
+        top: 550px;
+    }
+
+    #h1>.sticker:nth-child(2) {
+        position: absolute;
+        width: 450px;
+        top: 1500px;
+        right: 110px;
+    }
+
+    #h1>.sticker:nth-child(3){
+        position: absolute;
+        width: 450px;
+        top: 1580px;
+    }
+
+    #container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 260px;
+        padding-bottom: 260px;
+    }
+
+    #container>p{
+        width: 90%;
+        margin: 0px auto;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #container>.sticker2 {
+        margin: 110px auto;
+        width: 640px;
+        box-shadow: 0px 0px 20px 15px #f75e99;
+    }
+
+    #container>p:nth-child(3){
+        font-size: 50px;
+        width: 90%;
+        padding: 0px;
+    }
+
+    #container>.content1 {
+        display: flex;
+        width: 90%;
+        margin: 1000px auto;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    #container>.content1>.akutabb1{
+        width: 500px;
+        box-shadow: 0px 0px 20px 15px #f75e99;
+    }
+
+    #container>.content1>.akutabb2{
+        width: 500px;
+        box-shadow: 0px 0px 20px 15px #f75e99;
+        view-timeline-name: --image;
+        view-timeline-axis: block;
+        animation-timeline: --image;
+        animation-name: show;
+        animation-range: entry 100% cover 25%;
+        animation-fill-mode: both;
+    }
+
+    #container>.content1>p{
+        font-size: 50px;
+        width: 90%;
+        margin: 60px auto;
+    }
+}
+
+@media (max-width: 1085px){
+    body{
+        background-size: 240% 100%;
+        background-position: -275px;
+    }
+
+    #h1>sticker{
+        width: 480px;
+        top: 460px;
+    }
+
+    #container>.content1 {
+        display: flex;
+        width: 90%;
+        margin: 500px auto;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #h1>.sticker:nth-child(2){
+        position: absolute;
+        width: 450px;
+        top: 1200px;
+        right: 50px;
+    }
+
+    #h1>.sticker:nth-child(3){
+        position: absolute;
+        width: 450px;
+        top: 1280px;
+        left: 60px;
+    }
+
+    #container>.content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container>div>.gatito1 {
+        width: 670px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 15px #f75e99;
+    }
+
+    #container .content2 p {
+        width: 90%;
+        margin: 30px 5%;
+        font-size: 50px;
+        animation-range: entry 100% cover 30%;
+    }
+
+    #container>.content3 {
+        display: block;
+        margin: 700px auto;
+        width: 90%;
+    }
+
+    #container .content3 p {
+        width: 100%;
+        font-size: 50px;
+
+    }
+
+    #container .content3 img {
+        width: 850px;
+        margin: 30ox;
+        box-shadow: 0px 0px 20px 15px #f75e99;
+        animation-range: entry 100% cover 30%;
+    }
+}
